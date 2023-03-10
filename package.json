@@ -1,0 +1,24 @@
+{
+  "name": "consume-open-finance-informa-rss-feed",
+  "version": "1.0.0",
+  "description": "Consumo do Feed RSS Informa do Bacen",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --strictNullChecks --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nighthunder/consume-open-finance-informa-rss-feed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nighthunder/consume-open-finance-informa-rss-feed/issues"
+  },
+  "homepage": "https://github.com/nighthunder/consume-open-finance-informa-rss-feed#readme",
+  "dependencies": {
+    "rss-feed": "^0.0.0",
+    "rss-parser": "^3.12.0"
+  }
+}
